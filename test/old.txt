@@ -1,0 +1,12 @@
+app.get('/', (req, res) => {
+    console.log("GET request received");
+    res.send('Hello World!');
+
+
+    }
+);
+
+app.get('/api/hello', (req, res) => {
+    res.send('Hello Test!');
+    }
+);
